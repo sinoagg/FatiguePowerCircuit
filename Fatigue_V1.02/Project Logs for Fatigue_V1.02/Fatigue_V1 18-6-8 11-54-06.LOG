@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=DGND Pin=C85-1
+Removed Pin From Net: NetName=5V Pin=C85-2
+Removed Member From Class: ClassName=Fatigue_V1.02 Member=C85

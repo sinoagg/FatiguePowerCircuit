@@ -1,0 +1,66 @@
+Removed Pin From Net: NetName=DGND Pin=C64-1
+Removed Pin From Net: NetName=DGND Pin=R25-1
+Removed Pin From Net: NetName=DGND Pin=SPEAKER-2
+Removed Pin From Net: NetName=NetR11_2 Pin=U15-1
+Removed Pin From Net: NetName=DGND Pin=U15-2
+Removed Pin From Net: NetName=DGND Pin=U15-4
+Removed Pin From Net: NetName=5V Pin=U15-6
+Removed Member From Class: ClassName=Fatigue_V1.00 Member=C61
+Removed Member From Class: ClassName=Fatigue_V1.00 Member=C62
+Removed Member From Class: ClassName=Fatigue_V1.00 Member=C63
+Removed Member From Class: ClassName=Fatigue_V1.00 Member=C64
+Removed Member From Class: ClassName=Fatigue_V1.00 Member=R25
+Removed Member From Class: ClassName=Fatigue_V1.00 Member=U15
+Change Component DesignItemId : Designator=R11 Old DesignItemId=Res Semi New DesignItemId=Res1
+Change Component Comment : Designator=R11 Old Comment=1.2K New Comment=10K
+Change Component Description : Designator=R11 Old Description=Semiconductor Resistor New Description=Resistor
+Added Component: Designator=C82(0402)
+Added Component: Designator=C83(0402)
+Added Component: Designator=C84(0402)
+Added Component: Designator=C85(0402)
+Added Component: Designator=C86(cap_pol_8*10.2)
+Added Component: Designator=R12(0402)
+Added Component: Designator=U7(MSOP8)
+Added Pin To Net: NetName=DGND Pin=C83-2
+Added Pin To Net: NetName=DGND Pin=C84-2
+Added Pin To Net: NetName=DGND Pin=C85-1
+Added Pin To Net: NetName=5V Pin=C85-2
+Added Pin To Net: NetName=5V Pin=C86-1
+Added Pin To Net: NetName=DGND Pin=C86-2
+Added Pin To Net: NetName=NetR11_2 Pin=R12-1
+Added Pin To Net: NetName=5V Pin=U7-1
+Added Pin To Net: NetName=NetR11_2 Pin=U7-4
+Added Pin To Net: NetName=5V Pin=U7-6
+Added Pin To Net: NetName=DGND Pin=U7-7
+Change Net Name : Old Net Name=BELL_DATA New Net Name=BELL_CLK
+Added Pin To Net: NetName=BELL_DATA Pin=U1-26
+Added Pin To Net: NetName=BELL_DATA Pin=U5-3
+Added Net: Name=BELL_DATA
+Added Pin To Net: NetName=NetC82_1 Pin=C82-1
+Added Pin To Net: NetName=NetC82_1 Pin=R11-1
+Added Net: Name=NetC82_1
+Added Pin To Net: NetName=NetC82_2 Pin=C82-2
+Added Pin To Net: NetName=NetC82_2 Pin=U5-7
+Added Net: Name=NetC82_2
+Added Pin To Net: NetName=NetC83_1 Pin=C83-1
+Added Pin To Net: NetName=NetC83_1 Pin=U5-5
+Added Net: Name=NetC83_1
+Added Pin To Net: NetName=NetC84_1 Pin=C84-1
+Added Pin To Net: NetName=NetC84_1 Pin=U7-2
+Added Pin To Net: NetName=NetC84_1 Pin=U7-3
+Added Net: Name=NetC84_1
+Added Pin To Net: NetName=NetR12_2 Pin=R12-2
+Added Pin To Net: NetName=NetR12_2 Pin=SPEAKER-2
+Added Pin To Net: NetName=NetR12_2 Pin=U7-5
+Added Net: Name=NetR12_2
+Added Pin To Net: NetName=NetSPEAKER_1 Pin=SPEAKER-1
+Added Pin To Net: NetName=NetSPEAKER_1 Pin=U7-8
+Added Net: Name=NetSPEAKER_1
+Change Class Name : Old Net Name=Fatigue_V1.00 New Net Name=Fatigue_V1.02
+Added Member To Class: ClassName=Fatigue_V1.02 Member=Component C82 1uF
+Added Member To Class: ClassName=Fatigue_V1.02 Member=Component C83 10nF
+Added Member To Class: ClassName=Fatigue_V1.02 Member=Component C84 1uF
+Added Member To Class: ClassName=Fatigue_V1.02 Member=Component C85 100nF
+Added Member To Class: ClassName=Fatigue_V1.02 Member=Component C86 220uF
+Added Member To Class: ClassName=Fatigue_V1.02 Member=Component R12 20K
+Added Member To Class: ClassName=Fatigue_V1.02 Member=Component U7 LM4890
